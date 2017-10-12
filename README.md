@@ -59,7 +59,7 @@ Using the SDK
 
 		Scan
 			- (void)startScaning{
-				[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onChipRobotFinderNotification:) name:CojiFinderNotificationID object:nil];
+				[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onChipRobotFinderNotification:) name:ChipRobotFinderNotificationID object:nil];
 				[[ChipRobotFinderSDK sharedInstance] scanForRobots];
 			}
 
